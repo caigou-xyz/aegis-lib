@@ -1,7 +1,7 @@
 {
   "name": "@caigou-xyz/aegis-lib",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "packageManager": "pnpm@10.6.2",
   "description": "aegis server library",
   "author": "Caigou <developer@caigou.xyz>",
@@ -63,5 +63,8 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
