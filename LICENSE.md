@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025-PRESENT Anthony Fu <https://github.com/antfu>
+Copyright (c) 2025-PRESENT Caigou <https://github.com/caigou-xyz>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

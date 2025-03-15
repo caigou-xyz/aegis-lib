@@ -3,6 +3,9 @@ packages:
   - docs
   - packages/*
   - examples/*
+catalog:
+  ethers: ^6.11.1
+  tweetnacl: ^1.0.3
 catalogs:
   cli:
     '@antfu/eslint-config': ^4.10.1
