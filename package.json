@@ -1,18 +1,18 @@
 {
-  "name": "pkg-placeholder",
+  "name": "@caigou-xyz/aegis-lib",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@10.6.2",
-  "description": "_description_",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "description": "aegis server library",
+  "author": "Caigou <developer@caigou.xyz>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
+  "funding": "https://github.com/sponsors/caigou-xyz",
+  "homepage": "https://github.com/caigou-xyz/aegis-lib#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "git+https://github.com/caigou-xyz/aegis-lib.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
+  "bugs": "https://github.com/caigou-xyz/aegis-lib/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -35,6 +35,10 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "ethers": "catalog:",
+    "tweetnacl": "catalog:"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",
